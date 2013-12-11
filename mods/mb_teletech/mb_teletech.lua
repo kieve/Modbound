@@ -8,9 +8,9 @@ function uninit()
 end
 
 function input(args)
-  if args.moves["jump"] and not tech.jumping() then
+  if args.moves["special"] == 1 then
     return "tele"
-  elseif args.moves["special"] == 1 then
+  elseif args.moves["special"] == 2 then
     return "set_tele"
   end
 

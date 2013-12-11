@@ -1,8 +1,7 @@
 {
-  "input" : [ ],
+  "input" : [],
   "output" : {
-    "item" : "mb_teletech",
-    "count" : 1
+    "item" : "mb_teletech", "count" : 1
   },
   "groups" : [ "tech" ]
 }

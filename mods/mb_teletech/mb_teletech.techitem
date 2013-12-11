@@ -2,7 +2,7 @@
   "itemName" : "mb_teletech",
   "rarity" : "Legendary",
   "inventoryIcon" : "mb_teletech.png",
-  "description" : "Gain the knowledge to use Teleportation Pads",
+  "description" : "It makes you feel drawn to somewhere you've been...",
   "shortdescription" : "Distorted Phase",
   "inspectionKind" : "tech",
 
