@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "money", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "mb_teleswitch", "count" : 1
+  },
+  "groups" : [ "plain", "all", "other" ]
+}

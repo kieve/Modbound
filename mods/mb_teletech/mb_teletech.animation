@@ -1,0 +1,48 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "teleing" : {
+        "default" : "off",
+        "states" : {
+          "off" : {},
+          "in" : {
+            "frames" : 5,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "out" : {
+            "frames" : 5,
+            "cycle" : 0.15,
+            "mode" : "transition",
+            "transition" : "off"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "teleeffect" : {
+        "properties" : {
+          "centered" : true
+        },
+
+        "partStates" : {
+          "teleing" : {
+            "in" : {
+              "properties" : {
+                "image" : "mb_teletechin.png:<frameIndex>"
+              }
+            },
+
+            "out" : {
+              "properties" : {
+                "image" : "mb_teletechout.png:<frameIndex>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
