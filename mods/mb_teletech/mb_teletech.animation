@@ -16,6 +16,30 @@
             "cycle" : 0.15,
             "mode" : "transition",
             "transition" : "off"
+          },
+          "switch_green" : {
+            "frames" : 10,
+            "cycle" : 0.30,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "switch_orange" : {
+            "frames" : 10,
+            "cycle" : 0.30,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "set_green" : {
+            "frames" : 10,
+            "cycle" : 0.30,
+            "mode" : "transition",
+            "transition" : "off"
+          },
+          "set_orange" : {
+            "frames" : 10,
+            "cycle" : 0.30,
+            "mode" : "transition",
+            "transition" : "off"
           }
         }
       }
@@ -38,6 +62,30 @@
             "out" : {
               "properties" : {
                 "image" : "mb_teletechout.png:<frameIndex>"
+              }
+            },
+
+            "switch_green" : {
+              "properties" : {
+                "image" : "mb_teletechswitchgreen.png:<frameIndex>"
+              }
+            },
+
+            "switch_orange" : {
+              "properties" : {
+                "image" : "mb_teletechswitchorange.png:<frameIndex>"
+              }
+            },
+
+            "set_green" : {
+              "properties" : {
+                "image" : "mb_teletechsetgreen.png:<frameIndex>"
+              }
+            },
+
+            "set_orange" : {
+              "properties" : {
+                "image" : "mb_teletechsetorange.png:<frameIndex>"
               }
             }
           }

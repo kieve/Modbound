@@ -1,10 +1,11 @@
 {
   "script" : "mb_teletech.lua",
-  "actions" : [ "tele", "set_tele" ],
+  "actions" : [ "tele", "set_tele", "switch_tele" ],
   "animator" : "mb_teletech.animation",
 
   "energyUsage" : 5,
 
   "teleOutTime" : 0.15,
-  "teleInTime" : 0.15
+  "teleInTime" : 0.15,
+  "teleSwitchTime" : 0.3
 }
