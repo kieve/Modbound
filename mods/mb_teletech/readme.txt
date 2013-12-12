@@ -1,6 +1,10 @@
 The Teletech mod:
-Use "G" to save a location, "F" to teleport back there.
-Only use the teleport function when on the planet that has the location saved. You cannot teleport from the ship. Sadness will happen.
+Down + "F" : Switch between "Green save" and "Orange save"
+"G" : Save location
+"F" : Teleport to location
+
+
+Only use the teleport function when on the planet that has the location saved. You cannot teleport from the ship to the planet. Sadness will happen.
 
 Installation:
 
