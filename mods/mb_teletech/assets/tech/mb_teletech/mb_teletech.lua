@@ -2,8 +2,8 @@ function init()
   data.mode = "none"
   data.color = "green"
   data.timer = 0
-  if not _ENV.targetPosition then
-    _ENV.targetPosition = {}
+  if not math.targetPosition then
+    math.targetPosition = {}
   end
 end
 
@@ -35,13 +35,13 @@ function update(args)
   local teleSwitchTime = tech.parameter("teleSwitchTime")
 
   if args.actions["tele"] and data.mode == "none" and args.availableEnergy > energyUsage then
-    if _ENV.targetPosition[data.color] then
+    if math.targetPosition[data.color] then
       data.mode = "start"
     end
   end
 
   if args.actions["set_tele"] and data.mode == "none" then
-    _ENV.targetPosition[data.color] = tech.position()
+    math.targetPosition[data.color] = tech.position()
     data.mode = "set"
     data.timer = 0
   end
@@ -64,7 +64,7 @@ function update(args)
     data.timer = data.timer + args.dt
 
     if data.timer > teleOutTime then
-      tech.setPosition(_ENV.targetPosition[data.color])
+      tech.setPosition(math.targetPosition[data.color])
       data.mode = "in"
       data.timer = 0
     end
